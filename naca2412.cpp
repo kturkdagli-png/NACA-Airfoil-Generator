@@ -28,7 +28,7 @@ int main(){
 	double t = 0.12; //max thickness
     const double pi = 3.14159265;
 
-    // upper surface TE -› LE
+    // upper surface TE -â€º LE
     for(int i=N-1; i>=0; i--){
         double theta = i*pi/(N-1);
         double x = 0.5*(1-cos(theta));
@@ -44,7 +44,7 @@ int main(){
         airfoil<<fixed<<setprecision(6)<<xu<<" "<<yu<<endl;
     }
 
-    // lower surface LE -› TE (without TE)
+    // lower surface LE -â€º TE (without TE)
     for(int i=1; i<N-1; i++){
         double theta = i*pi/(N-1);
         double x = 0.5*(1-cos(theta));
